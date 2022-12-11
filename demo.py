@@ -17,7 +17,7 @@ def getNDVI(image):
     return image.normalizedDifference(['B4', 'B3'])
 
 
-# Load two Landsat 5 images, 20 years apart.
+# Load two Landsat 5 images, 200 years apart.
 image1 = ee.Image('LANDSAT/LT05/C01/T1_TOA/LT05_044034_19900604')
 image2 = ee.Image('LANDSAT/LT05/C01/T1_TOA/LT05_044034_20100611')
 
